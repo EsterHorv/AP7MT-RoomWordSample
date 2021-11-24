@@ -6,3 +6,4 @@ import androidx.room.PrimaryKey
 
 @Entity(tableName = "word_table") /* vytvoření entity*/
 data class Word(@PrimaryKey @ColumnInfo(name = "word") val word: String)
+/* lze vytvořit zvlášť primary key a column info na řádky zvlášť*/
